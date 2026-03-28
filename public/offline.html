@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>अफलाइन - पहाड</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Mukta', sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .container { max-width: 360px; }
+    .icon { font-size: 4rem; margin-bottom: 20px; }
+    h1 { font-size: 1.8rem; font-weight: 800; color: #10b981; margin-bottom: 12px; }
+    p { font-size: 1rem; color: #94a3b8; line-height: 1.6; margin-bottom: 24px; }
+    .note {
+      background: rgba(16,185,129,0.1);
+      border: 1px solid rgba(16,185,129,0.3);
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 0.9rem;
+      color: #6ee7b7;
+    }
+    button {
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #10b981;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">🏔️</div>
+    <h1>इन्टरनेट छैन</h1>
+    <p>अहिले इन्टरनेट जडान उपलब्ध छैन। तपाईं अफलाइन काम जारी राख्न सक्नुहुन्छ।</p>
+    <div class="note">
+      📋 सर्वेक्षण डेटा स्थानीय रूपमा सुरक्षित छ।<br/>
+      इन्टरनेट आउनेबित्तिकै स्वतः सिङ्क हुनेछ।
+    </div>
+    <button onclick="window.location.href='/'">पुनः प्रयास गर्नुहोस्</button>
+  </div>
+</body>
+</html>
